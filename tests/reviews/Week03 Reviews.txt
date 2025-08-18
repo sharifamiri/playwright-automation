@@ -1,0 +1,46 @@
+Topics:
+    Playwright Review
+    Extra Perplexity Spaces
+
+    Playwright Fixtures
+
+
+
+Next week: 
+    Monday ~ Friday: Module 04: Jenkins
+    Sunday: Live Class: Jenkins practice 
+            fixtures of Playwright
+
+Next Next Week: Project Implementation
+    Monday ~ Friday: Module 05: Playwright BDD Framework
+    Sunday: Live Class: BDD frameowrk  + TDD Framework
+
+Next Next Next Week:
+    TypeScript Programming
+    Playwright with TypeScript
+    TypeScript version of BDD & TDD Frameowrks
+
+
+-------------------------------------
+
+Test Case: verify all the links under the ul tag are displayed and enabled.
+    step 1: open chrome browser
+    step 2: navigate to "https://practice.cydeo.com/"
+    step 3: Locate all the links thata re under ul HTML tag
+    step 4: Verify that there exactly 50 links
+    step 5: Verify all the links are visible and clickable
+
+Use this locator for locating all the links that are under the ul HTML tag: 
+//ul[@class='list-group']//a
+
+
+-------------------------------------
+
+TASK: Send get request and verify the status code, conten-type and Json body
+    step1: The baseURL is set to http://example.com
+    step2: user sends GET request  to /exampleEndPoint
+    step3: verify status code is 200
+    step4: verify content type is application/json
+    step4: verify the total json object is 1
+    step5: verify firstName is Josh
+    step5: verify lastName is Jeremy
