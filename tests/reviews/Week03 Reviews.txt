@@ -44,3 +44,4 @@ TASK: Send get request and verify the status code, conten-type and Json body
     step4: verify the total json object is 1
     step5: verify firstName is Josh
     step5: verify lastName is Jeremy
+    
